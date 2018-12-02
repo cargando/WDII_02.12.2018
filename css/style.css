@@ -1,0 +1,83 @@
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+      p {
+        font-size: 14px !important;
+        color: red;
+      }
+      h1 {
+        color: green;
+      }
+      .paint_yellow {
+        color: yellow;
+      }
+      .bigger {
+        font-size: 40px;
+      }
+      #smaller {
+        font-size: 9px;
+      }
+      .default_div {
+        border: 1px solid red;
+        font-size: 16px;
+        color: #666;
+      }
+      .inner_div: {
+        text-decoration: underline;
+        border: 1px dashed magenta;
+        margin: 5px;
+      }
+
+      .div1 {
+        border: 1px solid red;
+        color: red;
+      }
+      .div1 > .div2 {
+        border: 1px solid green;
+        color: green;
+      }
+      .div1 h3 + h4 {
+        color: green;
+      }
+      [alt] {
+        margin: 30px;
+      }
+      a[role]{
+
+        font-weight: bold;
+      }
+      a[role="kkk"]{
+        text-decoration: none;
+        font-weight: normal;
+        color: black;
+      }
+      a:visited {
+        color: green;
+        text-decoration: underline !important;
+      }
+      a:focus{
+        color: red;
+      }
+      a:hover {
+        color: blue;
+      }
+      .list1:nth-child(3n+2){
+          color: green;
+      }
+      .first_letter_big:first-letter {
+        font-size: 30px;
+      }
+      .before1:before {
+        content: "\f007";
+        font-family: "Font Awesome"
+        font-weight: 400;
+
+        color: red;
+      }
+      #w1{
+        color: blue;
+      }
+      .w2{
+        color: magenta;
+      }
