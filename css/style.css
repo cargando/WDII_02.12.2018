@@ -1,83 +1,85 @@
-    * {
-      font-family: 'Montserrat', sans-serif;
-    }
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
 
-      p {
-        font-size: 14px !important;
-        color: red;
-      }
-      h1 {
-        color: green;
-      }
-      .paint_yellow {
-        color: yellow;
-      }
-      .bigger {
-        font-size: 40px;
-      }
-      #smaller {
-        font-size: 9px;
-      }
-      .default_div {
-        border: 1px solid red;
-        font-size: 16px;
-        color: #666;
-      }
-      .inner_div: {
-        text-decoration: underline;
-        border: 1px dashed magenta;
-        margin: 5px;
-      }
+.container {
 
-      .div1 {
-        border: 1px solid red;
-        color: red;
-      }
-      .div1 > .div2 {
-        border: 1px solid green;
-        color: green;
-      }
-      .div1 h3 + h4 {
-        color: green;
-      }
-      [alt] {
-        margin: 30px;
-      }
-      a[role]{
 
-        font-weight: bold;
-      }
-      a[role="kkk"]{
-        text-decoration: none;
-        font-weight: normal;
-        color: black;
-      }
-      a:visited {
-        color: green;
-        text-decoration: underline !important;
-      }
-      a:focus{
-        color: red;
-      }
-      a:hover {
-        color: blue;
-      }
-      .list1:nth-child(3n+2){
-          color: green;
-      }
-      .first_letter_big:first-letter {
-        font-size: 30px;
-      }
-      .before1:before {
-        content: "\f007";
-        font-family: "Font Awesome"
-        font-weight: 400;
+}
 
-        color: red;
-      }
-      #w1{
-        color: blue;
-      }
-      .w2{
-        color: magenta;
-      }
+.navigation {
+	background-color: #27312a;
+	color: #fefefe;
+	padding: 12px 50px 66px 50px;
+
+}
+
+.navigation .red_header {
+	color: #c96118
+}
+
+.navigation .green_header {
+	color: #0fae58;
+}
+
+.navigation .top_line{
+	padding: 20px;
+
+}
+
+.navigation .top_line .logo {
+	display: block;
+	margin-left: 35px;
+	background-image: url(/img/logo.png);
+	width: 133px;
+	height: 39px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.top_line .top_line_buttons {
+	float: right;
+	line-height: 50px;
+}
+
+.top_line_buttons .coupon_btn {
+	cursor: pointer;
+	width: 180px;
+	height: 50px;
+	border-radius: 3px;
+	border: 1px solid #e46915;
+	color: #e46915;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.top_line_buttons .menu-closer {
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px 10px 0px 10px;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+.menu-closer::before{
+	background: white;
+	content: '';
+	display: block;
+	height: .15rem;
+	width: 1.5rem;
+	transform: translateY(0.6rem) rotate(45deg);
+}
+
+.menu-closer::after {
+	background: white;
+	content: '';
+	display: block;
+	height: .15rem;
+	width: 1.5rem;
+	transform: translateY(0.5rem) rotate(-45deg);
+}
